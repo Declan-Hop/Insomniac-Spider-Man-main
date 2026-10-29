@@ -1,0 +1,29 @@
+.suit-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.suit{
+    margin: 5px;
+    border: 2px solid #ffffff;
+    background-color: darkslategray;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.full-suit{
+    width: 300px;
+}
+
+.right-side{
+    overflow: hidden;
+}
+
+button:active{
+    
+}
